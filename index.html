@@ -1,0 +1,240 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Comp</title>
+</head>
+<body>
+    <div class="comp">
+        <!-- comp -->
+        <div class="systemBlock">
+            <!-- systemBlock -->
+            <button class="start">Вкл</button>
+            <button class="end off">Выкл</button>
+            <span class="indicator unactive"></span>
+            <!-- systemBlock -->
+        </div>
+        <div class="monitor">
+            <!-- monitor -->
+            <div class="display">
+                <div class="load_block display_hide">
+                    <!-- load_block -->
+                    <div class="load">
+                        <img class="load_img" src="/image/svg/logo.svg" alt="logo_windows10">
+                        <div class="loader">
+                            <div class="bg"></div>
+                            <div class='circle'></div>
+                            <div class='circle'></div>
+                            <div class='circle'></div>
+                            <div class='circle'></div>
+                            <div class='circle'></div>
+                        </div>
+                    </div>
+                    <!-- load_block -->
+                </div>
+
+                <div class="autorize_block display_hide">
+                    <!-- autorize_block -->
+                    <div class="nad_autorize">
+                        <img class="user_img" src="/image/user.png" alt="user">
+                        <p class="user_name">Администратор</p>
+                        <button class="vhod">Войти</button>
+                    </div>
+                    <!-- autorize_block -->
+                </div>
+
+                <div class="desktop_block display_active">
+                    <!-- desktop_block -->
+                    <div class="zone_icon">
+                        <div class="start_menu display_hide">
+                            <div class="start_menu_left">
+
+                                <div class="menu start_menu_item hover"><div class="start_menu_icon"><img src="/image/menu_icon.png" alt="menu_icon"></div><p class="start_menu_title display_hide">ПУСК</p></div>
+
+                                <div class="users start_menu_item hover"><div class="start_menu_icon"><img src="/image/user.png" alt="users"></div><p class="start_menu_title display_hide">Администратор</p></div>
+
+                                <div class="document start_menu_item hover"><div class="start_menu_icon"><img src="/image/svg/document.svg" alt="document"></div><p class="start_menu_title display_hide">Документы</p></div>
+
+                                <div class="images start_menu_item hover"><div class="start_menu_icon"><img src="/image/svg/image.svg" alt="images"></div><p class="start_menu_title display_hide">Изображения</p></div>
+
+                                <div class="settings start_menu_item hover"><div class="start_menu_icon"><img src="/image/svg/settings.svg" alt="settings"></div><p class="start_menu_title display_hide">Параметры</p></div>
+
+                                <div class="off start_menu_item hover"><div class="start_menu_icon"><img src="/image/svg/down.svg" alt="down"></div><p class="start_menu_title display_hide">Выключение</p></div>
+
+                            </div>
+                            <div class="start_menu_right">
+                                <div class="start_menu_right_item hover title_right_item">Часто используемые</div>
+                                <div class="start_menu_right_item hover app_right_item edge"><img class="app_right_icon" src="/image/svg/edge.svg" alt="edge">Microsoft Edge</div>
+                                <div class="start_menu_right_item hover app_right_item defender"><img class="app_right_icon" src="/image/svg/defender.svg" alt="defender">Microsoft Defender</div>
+                                <div class="start_menu_right_item hover app_right_item groove"><img class="app_right_icon" src="/image/svg/groove.svg" alt="groove">Microsoft Groove</div>
+                                <div class="start_menu_right_item hover app_right_item menu_calendar"><img class="app_right_icon" src="/image/svg/календарь.svg" alt="календарь">Microsoft Календарь</div>
+                                <div class="start_menu_right_item hover app_right_item provodnik"><img class="app_right_icon" src="/image/svg/проводник.png" alt="проводник">Проводник</div>
+                                <div class="start_menu_right_item hover app_right_item onedrive"><img class="app_right_icon" src="/image/svg/onedrive.svg" alt="onedrive">Onedrive</div>
+                                <div class="start_menu_right_item hover app_right_item vsc"><img class="app_right_icon" src="/image/svg/vsc.svg" alt="vsc">Visual Studio Code</div>
+                            </div>
+                        </div>
+                        
+                    </div>
+                    <div class="setting display_hide">
+                        <div class="footer">
+                            <div class="title_window">
+                                <p>Параметры</p>
+                            </div>
+                            <div class="button_window">
+                                <button class="button_window_item hide button_window_hover"><img src="/image/свернуть.png" alt="hide"></button>
+                                <button class="button_window_item decrase button_window_hover"><img src="/image/расширить.png" alt="decrase"></button>
+                                <button class="button_window_item close close_hover"><img class="close_img" src="/image/svg/close.svg" alt="close"></button>
+                            </div>
+                        </div>
+                        <div class="middle">
+                            <div class="setting_block_user">
+                                <img src="/image/user.png" alt="">
+                                <div class="setting_block_user_info">
+                                    <p class="setting_user_name">Администратор</p>
+                                    <p class="setting_user_email">windows10@win.com</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="main">
+                            <div class="search_block">
+                                <div class="search_wrapper">
+                                    <input class="search_block_search" placeholder="Найти параметр" type="search">
+                                    <button class="search_block_button"><img class="search_block_button_img" src="/image/svg/settings_img/search_img.svg" alt=""></button>
+                                </div>
+                                
+                            </div>
+                            <div class="settings_block settings_block_hover settings_block_padding system">
+                                <img class="settings_block_icon" src="/image/svg/settings_img/system_img.svg" alt="">
+                                <div class="settings_block_descript">
+                                    <p class="settings_block_descript_title">Система</p>
+                                    <p class="settings_block_descript_descript">Экран, звук, уведомления, питание</p>
+                                </div>
+                            </div>
+                            <div class="settings_block settings_block_hover settings_block_padding devices">
+                                <img class="settings_block_icon" src="/image/svg/settings_img/devices_img.svg" alt="">
+                                <div class="settings_block_descript">
+                                    <p class="settings_block_descript_title">Устройства</p>
+                                    <p class="settings_block_descript_descript">Bluetooth, принтеры, мышь</p>
+                                </div>
+                            </div>
+                            <div class="settings_block settings_block_hover settings_block_padding phone">
+                                <img class="settings_block_icon" src="/image/svg/settings_img/phone_img.svg" alt="">
+                                <div class="settings_block_descript">
+                                    <p class="settings_block_descript_title">Телефон</p>
+                                    <p class="settings_block_descript_descript">Связать устройство с Android, iPhone</p>
+                                </div>
+                            </div>
+                            <div class="settings_block settings_block_hover settings_block_padding web">
+                                <img class="settings_block_icon" src="/image/svg/settings_img/web_img.svg" alt="">
+                                <div class="settings_block_descript">
+                                    <p class="settings_block_descript_title">Сеть и интернет</p>
+                                    <p class="settings_block_descript_descript">Wi-Fi, режим "в самолете", VPN</p>
+                                </div>
+                            </div>
+                            <div class="settings_block settings_block_hover settings_block_padding personalization">
+                                <img class="settings_block_icon" src="/image/svg/settings_img/personal_img.svg" alt="">
+                                <div class="settings_block_descript">
+                                    <p class="settings_block_descript_title">Персонализация</p>
+                                    <p class="settings_block_descript_descript">Фон, экран юлокировки, цвета</p>
+                                </div>
+                            </div>
+                            <div class="settings_block settings_block_hover settings_block_padding application">
+                                <img class="settings_block_icon" src="/image/svg/settings_img/app_img.svg" alt="">
+                                <div class="settings_block_descript">
+                                    <p class="settings_block_descript_title">Приложения</p>
+                                    <p class="settings_block_descript_descript">Удаление, значение по умолчанию, доп. компоненты</p>
+                                </div>
+                            </div>
+                            <div class="settings_block settings_block_hover settings_block_padding account">
+                                <img class="settings_block_icon" src="/image/svg/settings_img/accounts_img.svg" alt="">
+                                <div class="settings_block_descript">
+                                    <p class="settings_block_descript_title">Учетные запипси</p>
+                                    <p class="settings_block_descript_descript">Учетные записи, эл. почта, синхронизация, работа, семья</p>
+                                </div>
+                            </div>
+                            <div class="settings_block settings_block_hover settings_block_padding time">
+                                <img class="settings_block_icon" src="/image/svg/settings_img/time_img.svg" alt="">
+                                <div class="settings_block_descript">
+                                    <p class="settings_block_descript_title">Время и языки</p>
+                                    <p class="settings_block_descript_descript">Распознование голоса, регион, дата</p>
+                                </div>
+                            </div>
+                            <div class="settings_block settings_block_hover settings_block_padding games">
+                                <img class="settings_block_icon" src="/image/svg/settings_img/game_img.svg" alt="">
+                                <div class="settings_block_descript">
+                                    <p class="settings_block_descript_title">Игры</p>
+                                    <p class="settings_block_descript_descript">Xbox Game Bar, снимки, режим игры</p>
+                                </div>
+                            </div>
+                            <div class="settings_block settings_block_hover settings_block_padding features">
+                                <img class="settings_block_icon" src="/image/svg/settings_img/spec_img.svg" alt="">
+                                <div class="settings_block_descript">
+                                    <p class="settings_block_descript_title">Специальные возможности</p>
+                                    <p class="settings_block_descript_descript">Экранный диктор, контрастность</p>
+                                </div>
+                            </div>
+                            <div class="settings_block settings_block_hover settings_block_padding search">
+                                <img class="settings_block_icon" src="/image/svg/settings_img/search_img.svg" alt="">
+                                <div class="settings_block_descript">
+                                    <p class="settings_block_descript_title">Поиск</p>
+                                    <p class="settings_block_descript_descript">Найти мои файлы, разрешения</p>
+                                </div>
+                            </div>
+                            <div class="settings_block settings_block_hover settings_block_padding privacy">
+                                <img class="settings_block_icon" src="/image/svg/settings_img/privacy_img.svg" alt="">
+                                <div class="settings_block_descript">
+                                    <p class="settings_block_descript_title">Конфиденциальность</p>
+                                    <p class="settings_block_descript_descript">Расположение, камера, микрофон</p>
+                                </div>
+                            </div>
+                            <div class="settings_block settings_block_hover settings_block_padding updates">
+                                <img class="settings_block_icon" src="/image/svg/settings_img/update_img.svg" alt="">
+                                <div class="settings_block_descript">
+                                    <p class="settings_block_descript_title">Обновления и безопасность</p>
+                                    <p class="settings_block_descript_descript">Обновления Windows</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="taskbar">
+                        <!-- taskbar -->
+                        <div class="start_taskbar">
+                            <div class="taskbar_start hover taskbar_icon" title="Пуск">
+                                <img class="icon_start taskbar_icon_img" src="/image/svg/logo_w.png" alt="" >
+                            </div>
+                            <div class="taskbar_search hover taskbar_icon" title="Поиск">
+                                <img class="icon_search taskbar_icon_img" src="/image/lupa.png" alt="" >
+                            </div>
+                        </div>
+                        <div class="end_taskbar">
+                            <!-- end_taskbar -->
+                            <div class="calendar hover">
+                                <div class="time">
+                                    <span class="hour">14</span>:<span class="minute">00</span>
+                                </div>
+                                <div class="data">
+                                    <span class="day">29.</span><span class="month">09.</span><span class="year">2021</span>
+                                </div>
+                            </div>
+                            <div class="notification_icon taskbar_icon hover" title="Уведомлений нет">
+                                <img class="icon_notifi taskbar_icon_img" src="/image/notifi.png" alt="" >
+                            </div>
+                            <!-- end_taskbar -->
+                        </div>
+                        
+                        <!-- taskbar -->
+                    </div>
+                    <!-- desktop_block -->
+                </div>
+            </div>
+            <!-- monitor -->
+        </div>
+        <!-- comp -->
+    </div>
+    
+    <script src="script.js"></script>
+</body>
+</html>
