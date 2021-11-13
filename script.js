@@ -133,7 +133,7 @@ end.forEach((item) => {
 
 
 function fillStart(color) {
-    iconStart.src = `/image/svg/${color}.png`;
+    iconStart.src = `image/svg/${color}.png`;
 }
 function showReg() {
     if (loadBlock.className == 'load_block display_hide') {
